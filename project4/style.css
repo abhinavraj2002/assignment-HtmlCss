@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size:cover;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/img5.jfif);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+nav{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0 60px 0 60px;
+   margin-top: 55px;
+   font-family: "Red Rose";
+}
+.logo{
+    margin: 20px;
+    cursor: pointer;
+    
+}
+ nav ul{ 
+   
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color:#ffc233;
+    cursor: pointer;
+   
+} 
+
+nav ul li {
+    list-style: none;
+    font-weight: 800;
+}
+.nav-btn{
+    background-color:#ff505f;
+    padding: 12px 40px;
+    font-size: 24px;
+    color: white;
+    font-weight:800px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Red Rose";
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 119px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 104px;
+    line-height: 114px;
+    color: #ffc233;
+    line-height: 110px;
+    font-family: "Dela Gothic One", cursive;
+}
+.main-btn{
+    padding: 25px 45px;
+    font-weight: 700;
+    font-size: 35px;
+    background-color: #ff505f;
+    color: white;
+    border: none;
+    margin-top: 60px;
+    font-family: "Red Rose";
+    cursor: pointer;
+}
+
+.bottom{
+   position:relative;
+   left: 1300px;
+   bottom: 15px;
+}
